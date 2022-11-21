@@ -5,7 +5,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Capsula-Pet</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
     <link rel="stylesheet" type="text/css" href="/css/custom.css" />
     <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -56,18 +55,20 @@
                     <div class="card bg-dark border-success mt-3" style="max-width: 20rem; min-width: 15rem">
                         <div class="card-body">
                             <h5 class="card-title">Capsula-Pet para cães sabor carne</h5>
-                            <h5 class="h6 d-flex justify-content-center">Escaneie o QR Code para pagar com PIX</h5>
+                            <!-- <h5 class="h6 d-flex justify-content-center">Escaneie o QR Code para pagar com PIX</h5> -->
                             <div class="row mt-4">
                                 <div class="col-6">Total:</div>
                                 <div class="col-6">R$ 17</div>
                             </div>
                             <div class="row mt-3">
-                                <img src="/images/qr.jpg" class="card-img p-4" alt="..." />
+                                <div class="col-4">CNPJ:</div> 
+                                <div class="col-8" id="pix">41.610.567/0001-67</div> 
+                                <!-- <img src="/images/qr.jpg" class="card-img p-4" alt="..." /> -->
                             </div>
-                            <div class="row mt-2">
+                            <div class="row mt-3">
                                 <div class="col-12 d-flex justify-content-center align-items-center">
-                                    <button type="button" class="btn btn-secondary" id="btn-qr_code">
-                                        Pix Copia e Cola
+                                    <button type="button" class="btn btn-secondary" onclick="copyPix()">
+                                        Copiar chave Pix
                                     </button>
                                 </div>
                             </div>
@@ -75,10 +76,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <!-- <div class="col-6">
                 <div class="form-group justify-content-end d-flex m-2">
                     <button class="btn btn-success" type="button">OK</button>
-                </div>
+                </div> -->
             </div>
         </form>
     </div>
@@ -90,3 +91,4 @@
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
     crossorigin="anonymous"></script>
 <script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/pages/pix.js"></script>
