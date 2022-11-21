@@ -43,7 +43,7 @@
         <h3 class="h2">Detalhe do Pedido</h3>
     </div>
     <div class="ms-5">
-        <form action="/" method="post">
+        <form action="/pix.html" method="post">
             <div class="row row-cols-2">
                 <div class="col-auto">
                     <div class="card text-bg-dark border-success align-items-center mt-3" style="max-width: 10rem">
@@ -79,12 +79,12 @@
                             </div>
                             <div class="row mt-2">
                                 <div class="col-4 d-flex justify-content-center align-items-center">
-                                    <button type="button" class="btn btn-secondary" id="btn-pix">
+                                    <button type="button" class="btn btn-secondary disabled" id="btn-pix">
                                         Pix
                                     </button>
                                 </div>
                                 <div class="col-8 d-flex justify-content-center align-items-center">
-                                    <button type="button" class="btn btn-secondary" id="btn-cartao">
+                                    <button type="button" class="btn btn-secondary disabled text-dark" id="btn-cartao">
                                         Cartão de Crédito
                                     </button>
                                 </div>
@@ -96,7 +96,7 @@
             </div>
             <div class="col-6">
                 <div class="form-group justify-content-end d-flex m-2">
-                    <button class="btn btn-success" type="button">OK</button>
+                    <button class="btn btn-success" type="submit">Finalizar Compra</button>
                 </div>
             </div>
         </form>
