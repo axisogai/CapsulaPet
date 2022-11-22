@@ -6,7 +6,7 @@ A Capsula-Pet vem com a visão de sanar um dos grandes problemas atuais do micro
 
 ## 📋 Aplicação
 
-A aplicação pode ser executada no VS Code ou acessada em [GitHub Pages](https://pages.github.com/).
+A aplicação pode ser executada no VS Code ou acessada em [https://fascinating-cuchufli-06d739.netlify.app/](https://fascinating-cuchufli-06d739.netlify.app/).
 
 
 ## 📋 Teste da aplicação
