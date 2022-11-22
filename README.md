@@ -21,12 +21,12 @@ Uma série de exemplos passo-a-passo que informam o que você deve executar para
 
 ## ✒️ Grupo 1 - Integrantes 
 ```
-Alex Isogai
-Andrea Caitano Baron
-Bruno Gabriel Da Silva Albuquerque Lima
-Bruno Oliveira Gomes
-Edmilson Alison dos Santos Dias
-Igor Alexandre Moreira Goncalves
-Ismael Teixeira Marros
-Jamile Fraga Cordeiro
+Alex Isogai··
+Andrea Caitano Baron··
+Bruno Gabriel Da Silva Albuquerque Lima··
+Bruno Oliveira Gomes··
+Edmilson Alison dos Santos Dias··
+Igor Alexandre Moreira Goncalves··
+Ismael Teixeira Marros··
+Jamile Fraga Cordeiro··
 
